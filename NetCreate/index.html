@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>System testowy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+  <h4 class="d-flex align-items-center justify-content-between col-md-2">
+    <a href="index.html" class="d-flex align-items-center">
+      System testowy
+    </a>
+  </h4>
+
+  <nav class="d-flex align-items-center">
+    <i class="bi bi-circle-half px-2"></i>
+    <i class="bi bi-type px-2"></i>
+    <i class="bi bi-chevron-down px-2"></i>
+    <i class="bi bi-chevron-right px-2"></i>
+    <i class="bi bi-arrow-clockwise px-2"></i>
+  </nav>
+
+  <nav class="header-nav ms-auto">
+    <ul class="d-flex align-items-center">
+      <li class="nav-item dropdown">
+        <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+          <i class="bi bi-bell"></i>
+          <span class="badge bg-danger badge-number">32</span>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+          <li class="dropdown-header">
+            Masz 32 wiadomości
+            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Zobacz wszystkie</span></a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li class="notification-item">
+            <i class="bi bi-exclamation-circle text-warning"></i>
+            <div>
+              <h4>Lorem Ipsum</h4>
+              <p>Quae dolorem earum veritatis oditseno</p>
+              <p>30 min. ago</p>
+            </div>
+          </li>
+
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li class="notification-item">
+            <i class="bi bi-x-circle text-danger"></i>
+            <div>
+              <h4>Atque rerum nesciunt</h4>
+              <p>Quae dolorem earum veritatis oditseno</p>
+              <p>1 hr. ago</p>
+            </div>
+          </li>
+
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li class="notification-item">
+            <i class="bi bi-check-circle text-success"></i>
+            <div>
+              <h4>Sit rerum fuga</h4>
+              <p>Quae dolorem earum veritatis oditseno</p>
+              <p>2 hrs. ago</p>
+            </div>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+
+        <a class="nav-link nav-profile px-2" href="#" data-bs-toggle="dropdown">
+          <span class="d-none d-md-block dropdown-toggle ps-2"><i class="bi bi-house"></i></span>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+          <li class="message-item">
+            <a href="#">Pozycja 1</a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li class="message-item">
+            <a href="#">Pozycja 2</a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+        </ul>
+
+      </li>
+
+      <li class="nav-item dropdown pe-3">
+
+        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+          <span class="d-none d-md-block dropdown-toggle ps-2"><i class="bi bi-person-fill"></i></span>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+          <li class="dropdown-header">
+            <h6>Testowy</h6>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <span>Pozycja 1</span>
+            </a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <span>Pozycja 2</span>
+            </a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <span>Pozycja 3</span>
+            </a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+          <li>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <span>Pozycja 4</span>
+            </a>
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+
+</header>
+
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <div class="pagetitle"><b>Menu</b></div>
+      <hr />
+      <li class="nav-item collapsed">
+        <a class="nav-link " href="index.html">
+          Pozycja 1<i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="site2.html">
+          Pozycja 2<i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="site3.html">
+          Pozycja 3<i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="site4.html">
+          Pozycja 4<i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      </li>
+    </ul>
+
+  </aside>
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Strona główna</a></li>
+          <li class="breadcrumb-item active">Pozycja 1</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="section dashboard">
+      <div class="row">
+
+
+        <div class="col-xs-12">
+          <h2>Pozycja 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
